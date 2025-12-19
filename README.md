@@ -70,17 +70,21 @@ To run this project locally, clone the repository and install the dependencies.
 ## Usage
 
 ### 1. Training (Optional)
-The training scripts handle dataset loading, augmentation, and Bayesian Optimization. Ensure your data is organized into `train` and `val` folders.
-
-### 2. Real-Time Detection
-Load the trained weights (`best_drowsy_model.pth`) and run the detection script:
-
+The training scripts handle dataset loading, augmentation, and Bayesian Optimization.
 ```bash
 jupyter notebook driver_drowsiness_detection.ipynb
- ```
+```
+## 2. Real-Time Detection
+To start the webcam and detection system, load the trained weights (best_drowsy_model.pth) by running the inference notebook:
+```bash
+jupyter notebook real_time_webcam.ipynb
+```
+Note: Open the notebook and run all cells to activate the webcam.
 
 * Status Indicators: The screen displays "DROWSY" (Red) or "Normal" (Green).
 * Exit: Press 'q' to quit the application.
+
+
 
 
 
