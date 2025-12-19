@@ -74,7 +74,7 @@ The training scripts handle dataset loading, augmentation, and Bayesian Optimiza
 ```bash
 jupyter notebook driver_drowsiness_detection.ipynb
 ```
-## 2. Real-Time Detection
+### 2. Real-Time Detection
 To start the webcam and detection system, load the trained weights (best_drowsy_model.pth) by running the inference notebook:
 ```bash
 jupyter notebook real_time_webcam.ipynb
