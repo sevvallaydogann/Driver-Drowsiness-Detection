@@ -58,7 +58,7 @@ To run this project locally, clone the repository and install the dependencies.
 
 1.  **Clone the Repo**
     ```bash
-    git clone [https://github.com/username/Driver-Drowsiness-Detection.git](https://github.com/username/Driver-Drowsiness-Detection.git)
+    git clone https://github.com/sevvallaydogann/Driver-Drowsiness-Detection.git
     cd Driver-Drowsiness-Detection
     ```
 
