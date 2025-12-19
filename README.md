@@ -76,7 +76,7 @@ The training scripts handle dataset loading, augmentation, and Bayesian Optimiza
 Load the trained weights (`best_drowsy_model.pth`) and run the detection script:
 
 ```bash
-python realtime_detection.py
+python driver_drowsiness_detection.ipynb
  ```
 
 * Status Indicators: The screen displays "DROWSY" (Red) or "Normal" (Green).
